@@ -10,10 +10,10 @@ ProdUrl = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendar
 headers = {'Accept': 'application/json',
            'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
            }
-PinCode = "845401" #Enter your pincode here
-CheckAfter = 5 # Specify your time limit after which you want to check in minutes
-VaccineType = "COVISHIELD" # Set your vaccine type acceptable values COVISHIELD and COVAXIN
-MyAge = 24 # Set your age here, there are different sessions for people having age 45+ and below
+PinCode = "743337" #Enter your pincode here
+CheckAfter = 1 # Specify your time limit after which you want to check in minutes
+VaccineType = "COVAXIN" # Set your vaccine type acceptable values COVISHIELD and COVAXIN
+MyAge =55  # Set your age here, there are different sessions for people having age 45+ and below
 
 
 def SlotChecker():
